@@ -1,0 +1,19 @@
+package org.jsp.Students.dao;
+
+import org.springframework.stereotype.Component;
+
+import lombok.Data;
+@Data
+@Component
+public class Student {
+	   int id;
+	   String name;
+	   long mobile;
+	   int mathematics;
+	   int science;
+	   int english;
+	   double percentage;
+	   String result;
+	
+
+}

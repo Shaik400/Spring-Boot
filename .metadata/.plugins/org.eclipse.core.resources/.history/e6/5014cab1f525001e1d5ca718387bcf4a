@@ -1,0 +1,12 @@
+package org.jsp.Students.dao;
+
+public class Student {
+	
+	   String name;
+	   long mobile;
+	   int mathematics;
+	   int science;
+	   int english;
+	
+
+}

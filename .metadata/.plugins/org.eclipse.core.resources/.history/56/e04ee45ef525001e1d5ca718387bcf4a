@@ -1,0 +1,14 @@
+package org.jsp.Students.controller;
+
+import org.jsp.Students.dao.Student;
+import org.springframework.web.bind.annotation.PostMapping;
+import org.springframework.web.bind.annotation.RestController;
+
+@RestController
+public class StudentController {
+	@PostMapping("/students")
+	public void savestudent(Student student) {
+		return student;
+	}
+
+}
